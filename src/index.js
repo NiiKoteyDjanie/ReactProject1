@@ -4,6 +4,8 @@ import Heading from './Heading';
 import Notes from './Notes';
 import Table from './Table';
 import List from './List';
+import Images from './Images';
+import Links from './Links';
 
 
 
@@ -14,6 +16,8 @@ ReactDOM.render(
     <Notes />
     <Table />
     <List />
+    <Images />
+    <Links />
     </div>,
 
   document.getElementById('root')
