@@ -6,6 +6,7 @@ import List from './List';
 import Images from './Images';
 import Links from './Links';
 import Comments from './Comments';
+import Forms from './Forms';
 
 function App() {
     return <div>   
@@ -16,6 +17,7 @@ function App() {
     <Images />
     <Links />
     <Comments />
+    <Forms />
     </div>
      
  
