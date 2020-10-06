@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Heading from './Heading';
+import Notes from './Notes';
+import Table from './Table';
 
-function Heading (){
-  return <h1>My First React Project</h1>
-}
-function Notes (){
-  return <h5>This promises to be fun, already!</h5>
-}
+
+
 
 ReactDOM.render(
   
     <div><Heading />
     <Notes />
+    <Table />
     </div>,
 
   document.getElementById('root')
