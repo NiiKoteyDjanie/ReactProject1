@@ -8,6 +8,7 @@ import Links from './Links';
 import Comments from './Comments';
 import Forms from './Forms';
 import Paragraph from './Paragraph';
+import Quotations from './Quotations';
 
 function App() {
     return <div>   
@@ -20,6 +21,7 @@ function App() {
     <Comments />
     <Forms />
     <Paragraph />
+    <Quotations />
     </div>
      
  
