@@ -7,6 +7,7 @@ import Images from './Images';
 import Links from './Links';
 import Comments from './Comments';
 import Forms from './Forms';
+import Paragraph from './Paragraph';
 
 function App() {
     return <div>   
@@ -18,6 +19,7 @@ function App() {
     <Links />
     <Comments />
     <Forms />
+    <Paragraph />
     </div>
      
  
